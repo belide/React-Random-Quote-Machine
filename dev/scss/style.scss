@@ -1,0 +1,40 @@
+$primary: #26A69A;
+
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+body{
+	background-color: $primary;
+	font-family: 'Lora', serif;
+}
+.btn{
+	background-color:$primary;
+	border-radius: 2px;
+	color:white;
+	cursor: pointer;
+	display: inline-block;
+	padding: 10px 15px;
+}
+.btn:hover{
+	background-color:#00897B;
+}
+.main-container{
+	background-color: white;
+	margin: auto;
+	margin-top: 80px;
+	max-width: 500px;
+	padding: 40px 30px 30px;
+	width: 80%;
+}
+.right{
+	float:right;
+}
+.title {
+	color: $primary;
+	margin-top: 0px;
+	text-align: right;
+}
+.text{
+	color: $primary;
+	padding-bottom: 20px;
+	text-align: right;
+}
